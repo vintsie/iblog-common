@@ -1,6 +1,6 @@
 *.class
 target/
-iblog_common.iml
+iblog-common.iml
 
 # Package Files #
 *.jar
