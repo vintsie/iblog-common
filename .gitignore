@@ -1,4 +1,6 @@
 *.class
+target/
+iblog_common.iml
 
 # Package Files #
 *.jar
