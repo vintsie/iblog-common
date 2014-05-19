@@ -8,4 +8,5 @@ public interface StaticTypeConst {
 
     public static final String URL_BLOG = "BLOG_URL";
     public static final String MODULE_CLASS = "MODULE_CLASS";
+    public static final String TOKEN = "TOKEN";
 }
