@@ -5,9 +5,10 @@ package org.vint.iblog.common.bean.nor;
  *
  * Created by Vin on 14-3-10.
  */
-public class CBNArticle {
+public class CBNArticle extends CBNObject {
     // hex code
     public String hCode;
+
     // title
     public String title;
     // content
