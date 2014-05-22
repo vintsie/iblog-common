@@ -1,5 +1,7 @@
 package org.vint.iblog.common.bean.nor;
 
+import java.util.Date;
+
 /**
  * 通用文章Java对象
  *
@@ -14,6 +16,15 @@ public class CBNArticle extends CBNObject {
     // content
     public String content;
 
+    public Date createDate;
+
+    public Date getCreateDate() {
+        return createDate;
+    }
+
+    public void setCreateDate(Date createDate) {
+        this.createDate = createDate;
+    }
 
     public String gethCode() {
         return hCode;

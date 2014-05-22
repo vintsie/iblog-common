@@ -1,10 +1,12 @@
 package org.vint.iblog.common.bean.nor;
 
+import java.io.Serializable;
+
 /**
  *
  * Created by Vin on 14-5-17.
  */
-public class CBNGitHubCatalog {
+public class CBNGitHubCatalog implements Serializable{
 
     private String owner;
     private String repo;
